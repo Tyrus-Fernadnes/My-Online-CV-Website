@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TyrusFernandesOnlineCV.props" />
+</Project>

@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        body {
+            background-color: black !important;
+            font-family: Arial, sans-serif !important;
+            margin: 40px !important;
+        }
+        h1 {
+            font-size: 28px !important;
+            font-weight: bold !important;
+            color: #ff6f00 !important;
+            padding: 20px 0 !important;
+            text-align: end !important;
+            position: relative !important;
+        }
+
+        h2 {
+            font-size: 22px !important;
+            margin-top: 20px !important;
+            border-bottom: 2px solid #ff6f00 !important;
+            padding-bottom: 5px !important;
+            text-align: start !important;
+            color: #ff6f00 !important;
+            padding: 20px 0 !important;
+            position: relative !important;
+        }
+
+       
+        p{
+            font-size: 16px !important;
+            line-height: 1.6 !important;
+            color: aliceblue !important;
+        }
+
+        li {
+            font-size: 16px !important;
+            line-height: 1.6 !important;
+            color: aliceblue !important;
+        }
+
+        ul {
+            padding-left: 20px !important;
+            color: aliceblue !important;
+        }
+
+        .navbar-custom {
+            background-color: #ff6600 !important; /* Bright Orange */
+        }
+
+        @@keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .animated-border {
+            position: relative;
+            padding: 10px; /* Space inside the border */
+            border-radius: 10px; /* Optional: rounded corners */
+        }
+
+            .animated-border::before {
+                content: "";
+                position: absolute;
+                top: -3px;
+                left: -3px;
+                right: -3px;
+                bottom: -3px;
+                background: linear-gradient(45deg, #ff758c, #ff7eb3, #fec859, #ffca5f);
+                background-size: 300% 300%;
+                animation: gradientMove 6s infinite;
+                z-index: -1;
+                border-radius: 12px; /* Ensure border radius matches */
+            }
+
+            .animated-border::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: black; /* Match the background color of the content */
+                z-index: -1;
+                border-radius: 10px; /* Same as .animated-border */
+            }
+
+        .button-hover {
+            background: steelblue;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button-hover:hover {
+            background: dodgerblue;
+            transform: scale(1.1);
+        }
+        
+    </style>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TyrusFernandesOnlineCV</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TyrusFernandesOnlineCV.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-custom border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TyrusFernandesOnlineCV</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="https://github.com/Tyrus-Fernadnes">My Github Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - TyrusFernandesOnlineCV - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\TyrusFernandesOnlineCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA693386-BC08-4DE4-84CC-077C821C1E8F}|TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV.csproj|c:\\users\\lab_services_student\\source\\repos\\tyrusfernandesonlinecv\\tyrusfernandesonlinecv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA693386-BC08-4DE4-84CC-077C821C1E8F}|TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV.csproj|solutionrelative:tyrusfernandesonlinecv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA693386-BC08-4DE4-84CC-077C821C1E8F}|TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV.csproj|c:\\users\\lab_services_student\\source\\repos\\tyrusfernandesonlinecv\\tyrusfernandesonlinecv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA693386-BC08-4DE4-84CC-077C821C1E8F}|TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV.csproj|solutionrelative:tyrusfernandesonlinecv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TyrusFernandesOnlineCV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TyrusFernandesOnlineCV\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T18:42:15.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TyrusFernandesOnlineCV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\TyrusFernandesOnlineCV\\TyrusFernandesOnlineCV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TyrusFernandesOnlineCV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIgAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T18:05:09.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
